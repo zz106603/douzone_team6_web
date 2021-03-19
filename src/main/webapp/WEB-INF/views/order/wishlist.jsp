@@ -2,6 +2,9 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 
 <%@ include file="/WEB-INF/views/common/header.jsp"%>
+        <link href="<%=application.getContextPath() %>/resources/css/mypage.css" rel="stylesheet" type="text/css"/>
+        <link href="<%=application.getContextPath() %>/resources/css/wishlist.css" rel="stylesheet" type="text/css"/>
+
 
    <!-- 컨텐츠 -->
     <div class="container-fluid">
@@ -18,6 +21,7 @@
                 <a href="<%=application.getContextPath() %>/wishlist" class="mypage-tab-clicked">위시리스트</a>
                 <a href="<%=application.getContextPath() %>/changeinfo" class="mypage-tab">개인정보수정</a>
                 <a href="<%=application.getContextPath() %>/withdrawal" class="mypage-tab">회원탈퇴</a>
+                <a href="<%=application.getContextPath()%>/faq" class="mypage-tab">FAQ</a>
             </div>
 
             <div class="wishlist">
