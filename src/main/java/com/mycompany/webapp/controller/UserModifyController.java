@@ -12,11 +12,11 @@ public class UserModifyController {
 	
 	@GetMapping("/changeinfo")
 	public String openChangeinfo() {
-		return "user/changeInfo";
+		return "usermodify/changeInfo";
 	}
 	
 	@GetMapping("/withdrawal")
 	public String openWithdrawal() {
-		return "user/withdrawal";
+		return "usermodify/withdrawal";
 	}
 }

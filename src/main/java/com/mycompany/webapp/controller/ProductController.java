@@ -12,6 +12,6 @@ public class ProductController {
 	
 	@GetMapping("/product")
 	public String openProduct() {
-		return "main/product";
+		return "product/product";
 	}
 }

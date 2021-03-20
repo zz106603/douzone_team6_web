@@ -12,17 +12,17 @@ public class PurchaseController {
 	
 	@GetMapping("/purchaselist")
 	public String openPurchaselist() {
-		return "order/purchaseList";
+		return "purchase/purchaseList";
 	}
 	
 	@GetMapping("/exchangerefund")
 	public String openExchangerefund() {
-		return "order/exchangeRefund";
+		return "purchase/exchangeRefund";
 	}
 	
 	@GetMapping("/review")
 	public String openReview() {
-		return "order/review";
+		return "purchase/review";
 	}
 
 }
