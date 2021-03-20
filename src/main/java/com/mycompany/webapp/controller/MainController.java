@@ -23,11 +23,6 @@ public class MainController {
 		return "main/category";
 	}
 	
-	@GetMapping("/product")
-	public String openProduct() {
-		return "main/product";
-	}
-	
 	@GetMapping("/faq")
 	public String openFaq() {
 		return "main/faq";

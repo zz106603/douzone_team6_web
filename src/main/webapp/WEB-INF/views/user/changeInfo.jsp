@@ -122,12 +122,16 @@
           type="submit"
           style="background-color: #d15851; color: #f3f3f3;"
           class="btn changebtn"
-          ;=";">저장</button>
+          ;=";">
+          <a href="<%=application.getContextPath()%>/main" style="color:#f3f3f3">저장</a>
+      </button>
       <button
           type=""
           style="background-color: #d15851; color: #f3f3f3;"
           class="btn changebtn"
-          ;=";">취소</button>
+          ;=";"> 
+          <a href="<%=application.getContextPath()%>/main" style="color:#f3f3f3">취소</a>
+      </button>
   </div>
 
 <%@ include file="/WEB-INF/views/common/footer.jsp"%>

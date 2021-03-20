@@ -32,7 +32,7 @@
                     <a
                         class="btn btn-danger btn-sm"
                         style="background-color: #d15851;"
-                        href="<%=application.getContextPath()%>/purchaseList"
+                        href="<%=application.getContextPath()%>/purchaselist"
                         role="button">구매 내역</a>
                 </p>
             </div>

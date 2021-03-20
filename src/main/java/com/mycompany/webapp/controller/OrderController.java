@@ -29,23 +29,10 @@ public class OrderController {
 		return "order/ordercomplete";
 	}
 	
-	@GetMapping("/purchaselist")
-	public String openPurchaselist() {
-		return "order/purchaseList";
-	}
-	
 	@GetMapping("/wishlist")
 	public String openWishlist() {
 		return "order/wishlist";
 	}
 
-	@GetMapping("/exchangerefund")
-	public String openExchangerefund() {
-		return "order/exchangeRefund";
-	}
-	
-	@GetMapping("/review")
-	public String openReview() {
-		return "order/review";
-	}
+
 }

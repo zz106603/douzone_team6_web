@@ -26,15 +26,7 @@ public class UserController {
 		return "user/signup";
 	}
 	
-	@GetMapping("/changeinfo")
-	public String openChangeinfo() {
-		return "user/changeInfo";
-	}
-	
-	@GetMapping("/withdrawal")
-	public String openWithdrawal() {
-		return "user/withdrawal";
-	}
+
 	
 	
 }

@@ -168,7 +168,7 @@
                                 <!-- 구매확정 창으로 넘어가기 위한 버튼 -->
                                 <div class="form-group pay_btn_div">
                                     <button type="button" class="btn btn-primary" id="pay-btn">
-                                        <a href="order_complete.html" style="color:white">결제하기</button>
+                                        <a href="<%=application.getContextPath()%>/ordercomplete" style="color:white">결제하기</button>
                                     </div>
 
                                 </div>
