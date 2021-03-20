@@ -2,6 +2,8 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 
 <%@ include file="/WEB-INF/views/common/header.jsp"%>
+<link href="<%=application.getContextPath() %>/resources/css/cart.css" rel="stylesheet" type="text/css"/>
+
 
   <!-- 컨텐츠 -->
         <div class="cart-content">
@@ -145,7 +147,7 @@
                     </table>
 
 					<!-- 결제세부 창으로 넘어가는 버튼 -->
-                    <button class="btn btn-info btn-lg btn-block" onclick="location.href='order.html'">결제하기</button>
+                    <button class="btn btn-info btn-lg btn-block" onclick="location.href='<%=application.getContextPath() %>/order'">결제하기</button>
 
                 </div>
 

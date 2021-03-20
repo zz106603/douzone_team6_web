@@ -2,6 +2,8 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 
 <%@ include file="/WEB-INF/views/common/header.jsp"%>
+<link href="<%=application.getContextPath() %>/resources/css/category.css" rel="stylesheet" type="text/css"/>
+
 
   <div class="category-content">
             <!-- 컨텐츠 -->

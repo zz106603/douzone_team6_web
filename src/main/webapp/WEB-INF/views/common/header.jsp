@@ -12,6 +12,10 @@
         <!-- 타이틀 -->
         <title>SANTA CANDY</title>
 
+        <!-- 폰트 로딩 -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Noto+Sans+KR:wght@500&family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">
+
         <!-- 돋보기 -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
 
@@ -21,33 +25,24 @@
 		<script	src="<%=application.getContextPath() %>/resources/bootstrap-4.6.0/js/bootstrap.bundle.min.js"></script>
 		<script	src="<%=application.getContextPath() %>/resources/bootstrap-4.6.0/js/bootstrap.min.js"></script>
 
-        <!-- 폰트 로딩 -->
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Noto+Sans+KR:wght@500&family=Raleway:wght@300;400;600&display=swap"
-            rel="stylesheet">
 
         <!-- css 로딩 -->
-        
-        
         <link href="<%=application.getContextPath() %>/resources/css/header_footer.css" rel="stylesheet" type="text/css"/>
-        <link href="<%=application.getContextPath() %>/resources/css/main.css" rel="stylesheet" type="text/css"/>
-        <link href="<%=application.getContextPath() %>/resources/css/cart.css" rel="stylesheet" type="text/css"/>
-        <link href="<%=application.getContextPath() %>/resources/css/category.css" rel="stylesheet" type="text/css"/>
-        <link href="<%=application.getContextPath() %>/resources/css/changeInfo.css" rel="stylesheet" type="text/css"/>
-        <link href="<%=application.getContextPath() %>/resources/css/exchangeRefund.css" rel="stylesheet" type="text/css"/>
-        <link href="<%=application.getContextPath() %>/resources/css/faq_qna_real.css" rel="stylesheet" type="text/css"/>
-        <link href="<%=application.getContextPath() %>/resources/css/findidpw.css" rel="stylesheet" type="text/css"/>
-        <link href="<%=application.getContextPath() %>/resources/css/login.css" rel="stylesheet" type="text/css"/>
-        <link href="<%=application.getContextPath() %>/resources/css/mypage.css" rel="stylesheet" type="text/css"/>
-        <link href="<%=application.getContextPath() %>/resources/css/order.css" rel="stylesheet" type="text/css"/>
-        <link href="<%=application.getContextPath() %>/resources/css/product.css" rel="stylesheet" type="text/css"/>
-        <link href="<%=application.getContextPath() %>/resources/css/purchaseList.css" rel="stylesheet" type="text/css"/>
-        <link href="<%=application.getContextPath() %>/resources/css/review.css" rel="stylesheet" type="text/css"/>
-        <link href="<%=application.getContextPath() %>/resources/css/signup.css" rel="stylesheet" type="text/css"/>
-        <link href="<%=application.getContextPath() %>/resources/css/wishlist.css" rel="stylesheet" type="text/css"/>
-        <link href="<%=application.getContextPath() %>/resources/css/withdrawal.css" rel="stylesheet" type="text/css"/>
-        
 
+        <!-- FAQ 추가 -->
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Roboto:400,500|Open+Sans">
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link
+            rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+            
     </head>
     <body>
         <!-- 헤더 -->
@@ -56,7 +51,7 @@
             <div class="login-out">
                 <ul>
                     <li>
-                        <a href="<%=application.getContextPath()%>/mypage">마이페이지</a>
+                        <a href="<%=application.getContextPath()%>/purchaselist">마이페이지</a>
                     </li>
                     <li>
                         <a href="<%=application.getContextPath()%>/signup">회원가입</a>
