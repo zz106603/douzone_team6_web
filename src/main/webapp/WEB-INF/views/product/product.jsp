@@ -79,15 +79,20 @@
                         <span class="color blue"></span>
                     </h5>
                     <div class="product-action">
+                        <!-- 장바구니 추가 post -->
+                    <form method="post" action="addcart" style="display:inline-block">
                         <button
                             class="add-to-cart btn btn-default"
-                            type="button"
+                            type="submit"
                             onclick="alert('장바구니에 추가되었습니다.');">add to cart</button>
+					</form>
+					<form method="post" action="addwishlist" style="display:inline-block">
                         <button
                             class="like btn btn-default"
-                            type="button"
+                            type="submit"
                             onclick="alert('찜 리스트에 추가되었습니다.');">
                             <span class="fa fa-heart"></span></button>
+                    </form>
                     </div>
                 </div>
             </div>
@@ -182,8 +187,10 @@
                             </p>
                         </div>
                         <div class="col-md-2 review-part-right">
-                            <button class="review-btn" type="button" onclick="alert('삭제되었습니다.')">
+                        <form method="post" action="delreview">
+                            <button class="review-btn" type="submit" onclick="alert('삭제되었습니다.')">
                                 <span>remove</span></button>
+                         </form>
                         </div>
                     </div>
                 </div>

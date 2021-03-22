@@ -46,10 +46,12 @@
 					<!-- 로그인 카드 푸터 -->
 					<div class="card-footer">
 						<!-- email_password.js 파일을 통해 아이디와 비밀번호 데이터베이스 대조 후 로그인 판별 -->
+						<form method="post" action="login">
 						<div d-flex justify-content-xl-end>
 							<input type="submit" value="로그인" class="btn login-btn"
-								onclick="login()">
+								onclick="">
 						</div>
+						</form>
 
 
 						<!-- 회원가입 창으로 넘어감 -->

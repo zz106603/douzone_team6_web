@@ -15,15 +15,16 @@
 	  </div>
 
       <!-- 마이페이지 탭 목록 -->
-      <div id="mypageList">
-          <a href="<%=application.getContextPath()%>/purchaselist" class="mypage-tab">구매내역</a>
+       <div id="mypageList">
+          <a href="<%=application.getContextPath()%>/purchaselist" class="mypage-tab-clicked">구매내역</a>
           <a href="<%=application.getContextPath()%>/wishlist" class="mypage-tab">위시리스트</a>
-          <a href="<%=application.getContextPath()%>/changeinfo" class="mypage-tab-clicked">개인정보수정</a>
+          <a href="<%=application.getContextPath()%>/changeinfo" class="mypage-tab">개인정보수정</a>
           <a href="<%=application.getContextPath()%>/withdrawal" class="mypage-tab">회원탈퇴</a>
           <a href="<%=application.getContextPath()%>/faq" class="mypage-tab">FAQ</a>
       </div>
   </div>
 
+    <form method="post" action="changeinfo">
   <div >
       <h3 id="mypageTitle-under">개인정보수정</h3>
       <hr/>
@@ -133,6 +134,8 @@
           <a href="<%=application.getContextPath()%>/main" style="color:#f3f3f3">취소</a>
       </button>
   </div>
+  
+  </form>
 
 <%@ include file="/WEB-INF/views/common/footer.jsp"%>
 

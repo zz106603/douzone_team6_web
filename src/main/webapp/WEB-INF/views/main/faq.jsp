@@ -16,11 +16,11 @@
 
       <!-- 마이페이지 탭 목록 -->
       <div id="mypageList">
-          <a href="<%=application.getContextPath()%>/purchaselist" class="mypage-tab">구매내역</a>
+          <a href="<%=application.getContextPath()%>/purchaselist" class="mypage-tab-clicked">구매내역</a>
           <a href="<%=application.getContextPath()%>/wishlist" class="mypage-tab">위시리스트</a>
           <a href="<%=application.getContextPath()%>/changeinfo" class="mypage-tab">개인정보수정</a>
           <a href="<%=application.getContextPath()%>/withdrawal" class="mypage-tab">회원탈퇴</a>
-          <a href="<%=application.getContextPath()%>/faq" class="mypage-tab-clicked">FAQ</a>
+          <a href="<%=application.getContextPath()%>/faq" class="mypage-tab">FAQ</a>
       </div>
   </div>
 
@@ -128,7 +128,7 @@
 
 
 						<!-- form 태그의 action, post, target 기능을 사용해 Q&A 내용을 서버로 전송할 예정 -->
-                        <form action="" method="POST" target="_blank">
+                        <form action="qna" method="POST" target="_blank">
                             <div class="row">
                                 <div class="col">
                                     <div class="form-group">

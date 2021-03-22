@@ -27,6 +27,10 @@ public class MainController {
 	public String openFaq() {
 		return "main/faq";
 	}
+	@PostMapping("/qna")
+	public String sendQna() {
+		return "redirect:/main";
+	}
 
 	
 

@@ -38,9 +38,9 @@
                                 <td class="cart-img-rightline"><input type="text" value="1"></td>
                                 <td class="cart-img-rightline">33,000</td>
                                 <td>
-                                    <a href="#">
-                                        <i class="bi bi-x-square-fill"></i>
-                                    </a>
+                                    <form method="post" action="delcart">
+                                    	<input type="button" class="btn btn-primary btn-sm" value="X" style="padding-right:9px;">
+                                    </form>
                                 </td>
                             </tr>
                             <tr>
@@ -56,9 +56,9 @@
                                 <td class="cart-img-rightline"><input type="text" value="1"></td>
                                 <td class="cart-img-rightline">33,000</td>
                                 <td>
-                                    <a href="#">
-                                        <i class="bi bi-x-square-fill"></i>
-                                    </a>
+                                    <form method="post" action="delcart">
+                                    	<input type="button" class="btn btn-primary btn-sm" value="X" style="padding-right:9px;">
+                                    </form>
                                 </td>
                             </tr>
                             <tr>
@@ -74,9 +74,9 @@
                                 <td class="cart-img-rightline"><input type="text" value="1"></td>
                                 <td class="cart-img-rightline">33,000</td>
                                 <td>
-                                    <a href="#">
-                                        <i class="bi bi-x-square-fill"></i>
-                                    </a>
+                                     <form method="post" action="delcart">
+                                    	<input type="button" class="btn btn-primary btn-sm" value="X" style="padding-right:9px;">
+                                    </form>
                                 </td>
                             </tr>
                             <tr>
@@ -92,9 +92,9 @@
                                 <td class="cart-img-rightline"><input type="text" value="1"></td>
                                 <td class="cart-img-rightline">33,000</td>
                                 <td>
-                                    <a href="#">
-                                        <i class="bi bi-x-square-fill"></i>
-                                    </a>
+                                     <form method="post" action="delcart">
+                                    	<input type="button" class="btn btn-primary btn-sm" value="X" style="padding-right:9px;">
+                                    </form>
                                 </td>
                             </tr>
                             <tr>
@@ -110,9 +110,9 @@
                                 <td class="cart-img-rightline"><input type="text" value="1"></td>
                                 <td class="cart-img-rightline">33,000</td>
                                 <td>
-                                    <a href="#">
-                                        <i class="bi bi-x-square-fill"></i>
-                                    </a>
+                                     <form method="post" action="delcart">
+                                    	<input type="button" class="btn btn-primary btn-sm" value="X" style="padding-right:9px;">
+                                    </form>
                                 </td>
                             </tr>
                         </tbody>

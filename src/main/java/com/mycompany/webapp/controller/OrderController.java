@@ -19,12 +19,23 @@ public class OrderController {
 		return "order/cart";
 	}
 	
+	//선택옵션 정보
+	@PostMapping("/addcart")
+	public String addCart() {
+		return "redirect:/product";
+	}
+	
+	@PostMapping("/delcart")
+	public String delCart() {
+		return "redirect:/cart";
+	}
+	
 	@GetMapping("/order")
 	public String openOrder() {
 		return "order/order";
 	}
 	
-	@GetMapping("/ordercomplete")
+	@PostMapping("/ordercomplete")
 	public String openOrdercomplete() {
 		return "order/ordercomplete";
 	}
@@ -32,6 +43,16 @@ public class OrderController {
 	@GetMapping("/wishlist")
 	public String openWishlist() {
 		return "order/wishlist";
+	}
+	
+	@PostMapping("/addwishlist")
+	public String addWishList() {
+		return "redirect:/product";
+	}
+	
+	@PostMapping("/delwishlist")
+	public String delWishList() {
+		return "redirect:/wishlist";
 	}
 
 

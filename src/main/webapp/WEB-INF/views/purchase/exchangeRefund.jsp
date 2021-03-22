@@ -14,7 +14,7 @@
 	  </div>
 
       <!-- 마이페이지 탭 목록 -->
-      <div id="mypageList">
+     <div id="mypageList">
           <a href="<%=application.getContextPath()%>/purchaselist" class="mypage-tab-clicked">구매내역</a>
           <a href="<%=application.getContextPath()%>/wishlist" class="mypage-tab">위시리스트</a>
           <a href="<%=application.getContextPath()%>/changeinfo" class="mypage-tab">개인정보수정</a>
@@ -51,7 +51,7 @@
              <!-- 환불사유 선택 -->
              <h5 id="select-refund-reason-title">환불사유를 선택해주세요</h5>
              <hr/>
-             <form>
+             <form method="post" action="exchangerefund">
                  <div>
                      <div id="select-reason">
                          <input type="radio" name="reason"> 상품이 마음에 안 들어서<br>

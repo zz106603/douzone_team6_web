@@ -41,7 +41,9 @@
                         <div class="wishlist-title">
                             <p>위시리스트 제목 샘플</p>
                             <p>
-                                <button class="btn btn-primary bt-sm">삭제</button>
+                            <form method="post" action="delwishlist" style="padding-left:35%;">
+                                <button type="submit" class="btn btn-primary bt-sm">삭제</button>
+                            </form>
                             </p>
                         </div>
                     </div>

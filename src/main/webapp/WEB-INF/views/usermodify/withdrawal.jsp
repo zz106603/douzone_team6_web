@@ -15,16 +15,16 @@
 	  </div>
 
       <!-- 마이페이지 탭 목록 -->
-      <div id="mypageList">
-          <a href="<%=application.getContextPath()%>/purchaselist" class="mypage-tab">구매내역</a>
+       <div id="mypageList">
+          <a href="<%=application.getContextPath()%>/purchaselist" class="mypage-tab-clicked">구매내역</a>
           <a href="<%=application.getContextPath()%>/wishlist" class="mypage-tab">위시리스트</a>
           <a href="<%=application.getContextPath()%>/changeinfo" class="mypage-tab">개인정보수정</a>
-          <a href="<%=application.getContextPath()%>/withdrawal" class="mypage-tab-clicked">회원탈퇴</a>
+          <a href="<%=application.getContextPath()%>/withdrawal" class="mypage-tab">회원탈퇴</a>
           <a href="<%=application.getContextPath()%>/faq" class="mypage-tab">FAQ</a>
       </div>
   </div>
   
-  <form>
+  <form method="post" action="withdrawal">
      <div id="withdraw-reason">
 		<hr/>
         <h5 id="select-withdraw-reason-title">탈퇴사유를 선택해주세요.</h5>

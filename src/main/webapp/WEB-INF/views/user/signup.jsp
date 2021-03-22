@@ -25,7 +25,7 @@
 
                             <!-- 회원가입 바디 -->
                             <div class="card-body">
-                                <form method="post" action="/signup">
+                                <form method="post" action="signup">
                                     <div class="input-group form-group">
                                         <input type="text" class="form-control" name="uname" placeholder="이름">
                                     </div>
